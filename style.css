@@ -66,7 +66,7 @@
 
 
 
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
   ::after {
@@ -78,7 +78,7 @@
     transition-duration: 0s !important;
     transition-delay: 0s !important;
   }
-}
+} */
 
 
 
@@ -88,7 +88,7 @@
   height: 75vh;
   color: white;
   overflow-x: hidden;
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 }
 
 .filled-text {
