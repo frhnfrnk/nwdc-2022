@@ -7,6 +7,10 @@
     <title>My Assignment</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="scroll.css">
+
 
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
@@ -35,18 +39,73 @@
     </div>
 
 
-    <div class="footer">
-        <h1>HALOO</h1>
+    <div class="about">
+        <h1 class="judul-about">Tentang Saya</h1>
+        <div class="content">
+            <div class="image">
+                <img src="foto.jpg" alt="foto">
+            </div>
+            <div class="data">
+                <div class="data2">
+                    <pre>Nama    :   Farhan Franaka</pre>
+                    <pre>Asal        :   Padang, Sumatera Barat</pre>
+                    <pre>TTL          :   Bekasi, 3 Mei 2003</pre>
+                    <pre>Prodi      :   Teknologi Informasi'21</pre>
+                    <pre>Minat     :   Software Engineer</pre>
+                    <pre>Hobi       :   Badminton, Ngoding, dan pastinya Ngegame</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mot-exp">
+        <div class="add">
+            <div class="motivasi">
+                <div class="motivasi-inner">
+                    <div class="motivasi-front">
+                      <h1>Motivasi</h1>
+                    </div>
+                    <div class="motivasi-back">
+                      <p>Pada awal saya kuliah, saya tidak tertarik dengan Web. Namun setelah terpilih untuk membuat web kpuft, saya semakin ingin 
+                          untuk meningkatkan skill saya di bidang web. Dan saya menemukan Night Login yang dapat memberikan tempat untuk saya meningkatkan skill di bidang web itu </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ekspetasi">
+                <div class="ekspetasi-inner">
+                    <div class="ekspetasi-front">
+                      <h1>Ekspetasi</h1>
+                    </div>
+                    <div class="ekspetasi-back">
+                      <p>Saya berharap dengan adanya NWDC saya bisa meningkatkan skill saya di bidang web, dan bisa menguasai web, baik Front-End maupun Back-End.
+                        Dengan NWDC ini juga saya bisa berharap menemukan teman baru, dan info-info tentang dunia pekerjaan di bidang web.
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
+    <div class="tech">
+        <h1 class="judul-tech">Tech Stack</h1>
+        <img src="html.png" alt="">
+        <img src="css.png" alt="">
+        <img src="react.png" alt="">
+        <img src="bootstrap.svg" alt="">
+        <img src="tailwind.jpg" alt="">
+        <img src="gsap.svg" alt="">
+    </div>
 
 
+    <div class="footer">
+        <h1>Terima Kasih.</h1>
+    </div>
 
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 <script>
     gsap.registerPlugin(ScrollTrigger);
 
@@ -69,6 +128,8 @@
         },
         x: -550
     })
+
+    gsap.to()
 
     gsap.from(".menu" , {duration: 1, y: -100, opacity: 0, ease: 'bounce'} )
 </script>

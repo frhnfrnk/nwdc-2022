@@ -1,0 +1,23 @@
+@import url('style.css');
+
+body::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: rgb(3, 2, 44);
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: rgb(3, 2, 44);
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #ff9aff;
+    box-shadow:
+   0 0 20px  #ff9aff;
+    animation: glitch2 500ms infinite;
+
+}

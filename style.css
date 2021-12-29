@@ -7,6 +7,32 @@
   padding: 0;
 }
 
+body{
+  padding: 0;
+  overflow-y: scroll;
+  background: blue;
+}
+
+body::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: rgb(3, 2, 44);
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: rgb(3, 2, 44);
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #ff9aff;
+  box-shadow:
+   0 0 20px  #ff9aff;
+}
+
 
 /* NAVBAR */
 
@@ -85,7 +111,7 @@
 /* HERO */
 .hero {
   background-image: linear-gradient(to top, rgb(0, 0, 10), rgb(3, 2, 44));
-  height: 75vh;
+  height: 100vh;
   color: white;
   overflow-x: hidden;
 	/* overflow-y: scroll; */
@@ -111,8 +137,6 @@
   font-size: 100px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-
-
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: ghostwhite;
   color: transparent;
@@ -132,11 +156,6 @@
 
 
 
-
-.footer{
-  height: 100vh;
-  background-color: tomato;
-}
 
 
 
