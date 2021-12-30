@@ -33,12 +33,13 @@
 }
 
 .content .data {
-    width: 500px;
+    width: 50vh;
     margin-left: 100px;
     color: white;
 }
 
 .content .data2 pre{
+    width: 50vh;
     margin-top: 10px;
 }
 
@@ -61,7 +62,7 @@
 }
 
 .mot-exp .add{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(3, 2, 44, 0.5);
     width: 100%;
     height: 100%;
     display: flex;
@@ -201,18 +202,32 @@
 .tech img{
     width: 100px;
     height: 100px;
-    transition: 1s;
 }
 
-.tech img:hover{
+.tech div:hover{
     position: relative;
     top: -30px;
+    transition: all 2s linear 3s;
 }
 
 .tech h1{
     animation: glitch 1000ms infinite;
 }
 
+
+.desc{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+    color: rgb(3, 2, 44);
+}
+
+.tech div:hover .desc{
+    display: block;
+    transition-delay: 10s;
+    animation: glitch 1000ms infinite;
+}
 
 
 
