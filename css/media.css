@@ -166,23 +166,5 @@
     .hero2{
         display: block;
     }
-    .filled-text2 {
-        position: absolute;
-        top: 1300px;
-        left: 100px;
-      }
-      .outline-text2{
-        position: absolute;
-        top: 1300px;
-        left: 100px;
-      }
-      
-      .img-hero2 {
-        position: absolute;
-        top: 1050px;
-        left: 120px;
-
-        
-      }
 
 }
