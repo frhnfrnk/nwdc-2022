@@ -1,4 +1,4 @@
-@import url(style.css);
+@import url('./css/style.css');
 
 /* About */
 
@@ -52,7 +52,7 @@
 /* Motivation */
 .mot-exp{
     height: 80vh;
-    background-image: url('backfoto.jpeg');
+    background-image: url('../img/backfoto.jpeg');
     background-size: cover;
 
 }

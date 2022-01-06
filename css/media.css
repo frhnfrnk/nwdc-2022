@@ -1,0 +1,188 @@
+@import url('./css/style.css');
+@import url('./css/style2.css');
+
+
+@media (min-width: 1000px){
+    .hero2{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px){
+    .hero2{
+        display: block;
+    }
+    .hero{
+        display: none;
+    }
+
+    .about .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about h1{
+        font-size: 30px;
+    }
+
+    .content .image img
+    {
+        width: 30vh;
+    }
+
+    .content .data {
+        width: 275px;
+        font-size: 10px;
+        margin-left: 0;
+        color: white;
+        margin-left: 100px;
+        padding-top: 50px;
+    }
+
+    .content .data2 pre{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .mot-exp{
+        height: 100vh;
+    }
+    .mot-exp h1{
+        font-size: 30px;
+    }
+    .mot-exp .add{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .motivasi, .ekspetasi{
+        width: 300px;
+    }
+
+    .motivasi{
+        margin-top: 15px;
+    }
+
+    .ekspetasi{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+}
+
+
+@media (max-width: 670px){  
+
+    
+    .welcome-box h1{
+        font-size: 60px;
+    }
+
+    .hero{
+        display: none;
+    }
+
+    .about .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about h1{
+        font-size: 30px;
+    }
+
+    .content .image img
+    {
+        width: 30vh;
+    }
+
+    .content .data {
+        width: 275px;
+        font-size: 10px;
+        margin-left: 0;
+        color: white;
+        margin-left: 100px;
+    }
+
+    .content .data2 pre{
+        width: 100%;
+        margin-top: 10px;
+    }
+      
+
+    .mot-exp{
+        height: 100vh;
+    }
+    .mot-exp h1{
+        font-size: 30px;
+    }
+    .mot-exp .add{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .motivasi, .ekspetasi{
+        width: 30vh;
+    }
+
+    .motivasi{
+        margin-top: 15px;
+    }
+
+    .ekspetasi{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .tech{
+        height: 100vh;
+        background-color: #ff9aff;
+        flex-direction: column;
+    }
+
+    .tech div{
+        padding: 10px;
+    }
+
+    .tech h1{
+        font-size: 20px;
+    }
+
+    .tech img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .desc{
+        font-size: 10px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+
+    .hero2{
+        display: block;
+    }
+    .filled-text2 {
+        position: absolute;
+        top: 1300px;
+        left: 100px;
+      }
+      .outline-text2{
+        position: absolute;
+        top: 1300px;
+        left: 100px;
+      }
+      
+      .img-hero2 {
+        position: absolute;
+        top: 1050px;
+        left: 120px;
+
+        
+      }
+
+}

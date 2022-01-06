@@ -10,7 +10,7 @@
 body{
   padding: 0;
   overflow-y: scroll;
-  background: blue;
+  background-image: linear-gradient(to top, rgb(0, 0, 10), rgb(3, 2, 44));
 }
 
 
@@ -65,27 +65,8 @@ body{
   animation: glitch 375ms infinite;
   clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
   transform: translate(0.0125em, 0.025em);
-  /* color: red; */
   opacity: 0.8;
 }
-
-/* https://web.dev/prefers-reduced-motion/#(bonus)-forcing-reduced-motion-on-all-websites */
-
-
-
-/* @media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
-    transition-delay: 0s !important;
-  }
-} */
 
 
 
@@ -95,7 +76,6 @@ body{
   height: 100vh;
   color: white;
   overflow-x: hidden;
-	/* overflow-y: scroll; */
 }
 
 .filled-text {
@@ -107,6 +87,7 @@ body{
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   animation: glitch 500ms infinite;
+  
 
 
 }
@@ -133,6 +114,54 @@ body{
   animation: glitch2 500ms infinite;
   
 }
+
+.hero2 {
+  background-image: linear-gradient(to top, rgb(0, 0, 10), rgb(3, 2, 44));
+  height: 100vh;
+  color: white;
+  overflow-x: hidden;
+	/* overflow-y: scroll; */
+}
+
+
+.filled-text2 {
+  position: absolute;
+  top: 1200px;
+  left: 100px;
+  z-index: 1;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-family: 'Poppins', sans-serif;
+  animation: glitch 500ms infinite;
+
+
+}
+.outline-text2{
+  position: absolute;
+  top: 1200px;
+  left: 100px;
+  z-index: 3;
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: ghostwhite;
+  color: transparent;
+}
+
+.img-hero2 {
+  position: absolute;
+  top: 950px;
+  left: 20px;
+  z-index: 2;
+  height: 300px;
+  width: auto;
+  animation: glitch2 500ms infinite;
+  
+}
+
 
 
 
