@@ -7,3 +7,6 @@ Stack :
 4. GSAP
 
 Mohon maaf atas kekuranagan.Terima kasih
+
+Deploy : https://farhanfranaka.github.io/nwdc-2022-assignment/
+
