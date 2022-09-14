@@ -8,5 +8,5 @@ Stack :
 
 Mohon maaf atas kekuranagan.Terima kasih
 
-Deploy : https://farhanfrnk.github.io/nwdc-2022-assignment/
+Deploy : https://farhanfrnk.github.io/nwdc-2022/
 
